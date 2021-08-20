@@ -1,0 +1,64 @@
+
+
+html,body {
+  margin: 0;
+}
+.background{
+  background-image: url("../images/fake.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  top: 0;
+  z-index: 0;
+  height: 1000px;
+  margin-top: -300px;
+  width: 100%;
+  position: absolute;
+
+}
+.navBar{
+  z-index:1
+}
+
+nav h1{
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+.quote{
+  color:WHITE;
+  font-size: 40px;
+  font-weight: 200;
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  right: 10%;
+  text-align: center
+
+  
+  
+  
+};
+
+.dog{
+  color:WHITE;
+  font-size: 40px;
+  font-weight: 200;
+  width: 400px;
+  position: absolute;
+  top: 60%;
+  right: 0;
+}
+.linkContainer{
+  font-weight: 100;
+}
+
+
+#About{
+  height: 700px;
+  top: 650px;
+  position: relative;
+
+
+}
