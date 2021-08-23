@@ -2,6 +2,8 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as style from "./body.module.css"
 
+import Card from "./Card"
+
 
 import Navbar from "./Navbar"
 import background from "../images/gym.jpg"
@@ -11,9 +13,10 @@ import largeImage from "../images/fake.jpg"
 
 
 
+
 const Body=() =>{
     return(
-        <main >
+        <body  >
 
         <section id="Home">
         <div className={style.nav}>
@@ -38,10 +41,24 @@ const Body=() =>{
         </section>
        
 
-<section id="About">
-    
+<section id="About" class>
+<div className="wrapper">
+    <div  id="skew1" className="cus-div">
+        <div className = "content ">
+        <div className="cardContainer">
+        <Card height="400px" />
+
+        </div>
+        </div>
+    </div>
+
+
+</div>
+          
+
+
 </section>
-        </main>
+        </body>
     );
 } ;
 export default Body
