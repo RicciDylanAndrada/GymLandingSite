@@ -24,9 +24,6 @@ const Body=() =>{
 </div>
 <div className = "background">
 
-
-
-
 <h1 className ="quote">¨The only person you are destined to become is the person you decide to be</h1>
 
 </div>
@@ -41,14 +38,46 @@ const Body=() =>{
         </section>
        
 
-<section id="About" class>
+<section id="Price" class>
 <div className="wrapper">
     <div  id="skew1" className="cus-div">
-        <div className = "content ">
-        <div className="cardContainer">
-        <Card height="400px" />
+        <div className = "content">
+        <div className="pricing">
+        <h1>PRICING</h1>
 
         </div>
+        <div className="cardContainer">
+        <Card height="400px"  marginTop="60px"
+            header="Basic"
+        />
+        <Card height="450px" marginTop="30px" 
+             header="Silver "
+        />
+        <Card height="500px" marginTop="10px"
+         header="Gold" />
+
+
+        </div>
+       
+        </div>
+    </div>
+
+
+</div>
+</section>
+
+
+<section id="About" class>
+<div className="wrapper">
+    <div  id="skew2" className="cus-div">
+        <div className = "content">
+        <div className="AboutUs">
+        <h1>ABOUT US</h1>
+
+        </div>
+
+        
+       
         </div>
     </div>
 
@@ -58,6 +87,9 @@ const Body=() =>{
 
 
 </section>
+
+
+
         </body>
     );
 } ;

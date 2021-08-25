@@ -34,10 +34,10 @@ nav h1{
   color:WHITE;
   font-size: 40px;
   font-weight: 200;
-  width: 50%;
+  width: 80%;
   position: absolute;
   top: 50%;
-  left: 5%;
+  left: 10%;
   right: 10%;
   text-align: center
 
@@ -51,6 +51,15 @@ nav h1{
 
 #About{
   height: 700px;
+  top: 650px;
+  position: relative;
+  background-color: grey;
+
+
+}
+#Price{
+  background-color:inherit;
+  height: 800px;
   top: 650px;
   position: relative;
 
@@ -79,25 +88,78 @@ nav h1{
 
 
 }
-#skew1:after{
+#skew2:after,#skew1:after{
   transform-origin: left bottom ;
   transform: skewY(-5deg);
 }
+#skew2:after{
+  transform-origin: right bottom ;
+  transform: skewY(5deg);
+}
 .content{
   font-weight: bold;
- margin-left: 300px;
   text-align: center;
   overflow: hidden;
-  display: block;
+  display: flex;
+  flex-direction: row;
+
   height: auto;
 
 }
 .cardContainer{
-  background: red;
-  width: 100%
+
+  margin-left: 1%;
+  display: flex;
+  flex-direction:row  ;
+  gap: 5;
+  width: 100%;
+ 
 }
 
 .navColor{
   color: white !important;
   
+}
+.pricing{
+  writing-mode:vertical-rl;
+  display: inline-block;
+  letter-spacing: 20px;
+  margin-left: 10px;
+  margin-right: -20px;
+
+
+}
+.pricing h1{
+  font-size: 40px;
+  text-orientation: upright;
+  font-size: 20px;
+  
+}
+
+
+
+#skew2{
+  z-index: 9;
+  background: grey;
+  
+  
+
+}
+.AboutUs{
+  text-align: center;
+  writing-mode:vertical-rl;
+  letter-spacing: 20px;
+   margin-top: 150px;
+
+  
+
+}
+.AboutUs h1{
+  font-size: 20px;
+  text-align: center;
+  text-orientation:upright;
+
+  margin-right:  auto ;
+
+  position: relative;
 }
