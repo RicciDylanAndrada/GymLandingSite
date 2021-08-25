@@ -59,9 +59,17 @@ nav h1{
 }
 #Price{
   background-color:inherit;
-  height: 800px;
+  height: 700px;
+  top: 700px;
+  position: relative;
+
+
+}
+#Programs{
+  height: 700px;
   top: 650px;
   position: relative;
+  text-align:Center;
 
 
 }
