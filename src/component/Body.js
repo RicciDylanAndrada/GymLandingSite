@@ -10,6 +10,16 @@ import background from "../images/gym.jpg"
 
 import Image from 'react-bootstrap/Image'
 import largeImage from "../images/fake.jpg"
+import Treadmill from "../images/treadmill.png"
+import Yoga from "../images/yoga.png"
+import Time from "../images/24.png"
+import Friends from "../images/friends.png"
+import Judgement from "../images/judgement.png"
+import Equiptment from "../images/kettlebell.png"
+
+
+
+
 
 
 const aboutuS =
@@ -113,6 +123,54 @@ const Body=() =>{
 <section id="Programs">
 
 <h1>What we Offer </h1>
+
+<div className="offerIcons" class="row justify-content-between">
+
+
+<div className="offer" class="col-6" >
+<img src={Treadmill}/>
+<h1>Cardio</h1>
+<p>Endless ways to get your cardio in. From treadmills to stairs.</p>
+</div>
+
+
+<div className="offer" class="col-6" >
+<img src={Yoga}/>
+<h1> Special  classes </h1>
+<p>For those not interested into weight training, we offer classes such as Yoga, Pilates and much more </p>
+
+</div>
+
+<div className="offer" class="col-6" >
+<img src={Time}/>
+
+</div>
+
+<div className="offer" class="col-6" >
+<img src={Friends}/>
+
+    
+</div>
+
+
+
+
+<div className="offer" class="col-6" >
+<img src={Judgement}/>
+
+    
+</div>
+
+<div className="offer" class="col-6" >
+<img src={Equiptment}/>
+
+    
+</div>
+
+</div>
+
+
+
 
 
 </section>
