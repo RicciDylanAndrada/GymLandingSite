@@ -11,13 +11,15 @@ export default function Card(props){
 
     const cardStyle={
         width:"15rem",
-backgroundColor:"blue",
-        height:props.height
+        height:props.height,
+
     }
     
     const cardContainer={
         display:"flex",
-        padding:"20px 40px",
+        padding:"20px 60px",
+        marginLeft:"100px%",
+        width:"100%",
     
         marginTop:props.marginTop
         
@@ -25,8 +27,8 @@ backgroundColor:"blue",
     }
 
 return(
-    <div class = "card-container" style={cardContainer} >
-<div class="card bg-light mb-3" style={cardStyle}>
+    <div class = "card-container " style={cardContainer} >
+<div class="card bg-light mb-3 " style={cardStyle}>
 <div class="card-header">{props.header}</div>
 <div class="card-body">
   <h5 class="card-title">Light card title</h5>

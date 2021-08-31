@@ -100,15 +100,26 @@ const Body=() =>{
         <h1>PRICING</h1>
 
         </div>
-        <div className="cardContainer">
+        <div className="cardContainer row" >
+        <div class="col-lg-4 col-md-6 col-sm-12">
         <Card height="400px"  marginTop="60px"
             header="Basic"
         />
-        <Card height="450px" marginTop="30px" 
+        </div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-12" >
+<Card height="450px" marginTop="30px" 
              header="Silver "
         />
-        <Card height="500px" marginTop="10px"
+</div>
+       
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+       <Card height="500px" marginTop="10px"
          header="Gold" />
+       </div>
+        
 
 
         </div>
@@ -136,18 +147,22 @@ const Body=() =>{
 
 <div className="offer" class="col-6" >
 <img src={Yoga}/>
-<h1> Special  classes </h1>
+<h1> Special  Classes </h1>
 <p>For those not interested into weight training, we offer classes such as Yoga, Pilates and much more </p>
 
 </div>
 
 <div className="offer" class="col-6" >
 <img src={Time}/>
+<h1>Open Anytime</h1>
+<p>Memebers can access the gym any time and any day. 24/7</p>
 
 </div>
 
 <div className="offer" class="col-6" >
 <img src={Friends}/>
+<h1>Bring a Friend</h1>
+<p> Why workout alone when you can bring your buddy.  </p>
 
     
 </div>
@@ -157,12 +172,16 @@ const Body=() =>{
 
 <div className="offer" class="col-6" >
 <img src={Judgement}/>
+<h1> Judgement Free Zone</h1>
+<p>This is a place where you can be you and workout how you want to, free of judgement.</p>
 
     
 </div>
 
 <div className="offer" class="col-6" >
 <img src={Equiptment}/>
+<h1> High Quality Equipment</h1>
+<p> We offer the best of the best equipment that will assist you to become your best and reach your goals. </p>
 
     
 </div>
