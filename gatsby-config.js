@@ -7,7 +7,18 @@ exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `limelight`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles,
+          `Monsterrat\:300,400,200`
+        ],
+        display: 'swap'
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`, 
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
@@ -15,7 +26,8 @@ exports = {
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-image`
+    `gatsby-plugin-image`,
+    
   ],
 };
 

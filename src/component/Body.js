@@ -104,20 +104,28 @@ const Body=() =>{
         <div class="col-lg-4 col-md-6 col-sm-12">
         <Card height="400px"  marginTop="60px"
             header="Basic"
+            title="$9.99"
+            body=""
+
         />
         </div>
 
 
 <div class="col-lg-4 col-md-6 col-sm-12" >
-<Card height="450px" marginTop="30px" 
-             header="Silver "
+            <Card height="450px" marginTop="30px" 
+             header="Silver"
+             title="$10.99"
+
         />
 </div>
        
 
        <div class="col-lg-4 col-md-6 col-sm-12">
        <Card height="500px" marginTop="10px"
-         header="Gold" />
+         header="Gold"
+         title="$19.99"
+
+          />
        </div>
         
 
@@ -193,12 +201,34 @@ const Body=() =>{
 
 
 </section>
+<section className="footer">
 
 
 
+<div class="container">
+        <div class="row footer1">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h6>About</h6>
+            <p class="text-justify">Shore Strength is an initiative to help anyone become a better version of theirselves. Shore Strength focuses on providing the best for our members from state of the art equiptment to professional coaching. We offer a home to our members where they can feel comfortable but push themselves outside of their comfort zone.
+            </p>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6">
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a > Ricci Andrada</a>.
+            </p>
+
+          
+        </div>
+       
+        
+      </div>
+      </div>
+
+      </section>
 
 
-
+     
         </body>
     );
 } ;

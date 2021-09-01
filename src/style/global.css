@@ -1,6 +1,8 @@
 
 
 html,body {
+  font-family: 'Montserrat', sans-serif;
+  
   margin: 0;
 }
 .background{
@@ -22,8 +24,12 @@ html,body {
 }
 .navBar{
   z-index:1
+  
 }
+nav{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
+}
 nav h1{
   color: white;
   font-weight: 200;
@@ -38,7 +44,9 @@ nav h1{
   top: 25%;
   left: 10%;
   right: 10%;
-  text-align: center
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
 
 };
 
@@ -53,6 +61,8 @@ nav h1{
   top: 650px;
   position: relative;
   background-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
 
 
 }
@@ -62,7 +72,7 @@ nav h1{
   width: 100%;
   top: 700px;
   position: relative;
-  margin-left: ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 
@@ -72,6 +82,7 @@ nav h1{
   top: 650px;
   position: relative;
   text-align:Center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 
 
 }
@@ -162,6 +173,8 @@ margin-left: 100px;
 }
 .AboutUs{
   text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 
 
 display: flex;
@@ -174,6 +187,16 @@ flex-direction: row;
 
   margin-left: 20px;
 padding: 10px;
+}
+.card-header{
+  font-size: 25px;
+}
+.card-title{
+  font-size: 30px;
+}
+.card-text{
+  margin-top: 30px;
+  text-align: left;
 }
 .AboutUs h1{
   writing-mode:vertical-rl;
@@ -203,6 +226,26 @@ padding: 10px;
   display: flex;
   flex-direction: row;
 }
+.footer{
+  height: 300px;
+  top: 650px;
+  position: relative;
+  background-color: black;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.copyright{
+  margin-left: 20px;
+
+}
+.contact{
+  color:black
+}
 
 @media screen and (max-width: 990px) {
   #Programs{
@@ -218,6 +261,19 @@ padding: 10px;
     top: 650px;
     position: relative;
     background-color: white;
+  
+  
+  }
+  .footer{
+    height: 300px;
+    top: 1250px;
+    position: relative;
+    background-color: black;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
   
   }
@@ -237,6 +293,19 @@ padding: 10px;
     top: 650px;
     position: relative;
     background-color: white;
+  
+  
+  }
+  .footer{
+    height: 300px;
+    top: 1850px;
+    position: relative;
+    background-color: black;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
   
   }
